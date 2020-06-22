@@ -116,6 +116,7 @@ namespace University.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            //
             PopulateDepartmentsDropDownList(courseToUpdate.DepartmentID);
             return View(courseToUpdate);
         }
